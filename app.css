@@ -43,7 +43,7 @@ ul {
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    animation: textclip 8s linear infinite;
+    animation: textclip 6s linear infinite;
     display: inline-block;
     font-size: 125px;
     margin-top: 2rem;
