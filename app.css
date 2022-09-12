@@ -1,0 +1,57 @@
+html {
+    min-height: 100%;
+}
+
+body {
+    background: radial-gradient(ellipse at top, #e66465, transparent),
+        radial-gradient(ellipse at bottom, #4d9f0c, transparent);
+    ;
+    background-color: #ffffbf;
+    color: darkblue;
+    text-align: center;
+}
+
+p {
+    text-shadow: 2px 2px 7px #00F260;
+}
+
+ul {
+    list-style: none;
+    text-align: left;
+}
+
+.move {
+    margin-left: 1.5em;
+}
+
+.tony-stark {
+    border: solid #00F260 2px;
+    box-shadow: 0 4px 8px 0 darkblue;
+}
+
+.animate-charcter {
+    text-transform: uppercase;
+    background-image: linear-gradient(-225deg,
+            #00F260 0%,
+            #00F260 29%,
+            #0575E6 67%,
+            #00F260 100%);
+    background-size: auto auto;
+    background-clip: border-box;
+    background-size: 200% auto;
+    color: #fff;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: textclip 8s linear infinite;
+    display: inline-block;
+    font-size: 125px;
+    margin-top: 2rem;
+    margin-bottom: auto;
+}
+
+@keyframes textclip {
+    to {
+        background-position: 200%;
+    }
+}
